@@ -17,7 +17,7 @@ header{
     background: #181818;
     padding: 24px 0px;
 }
-header .container{
+.container{
     max-width: 1200px;
     margin: auto;
     padding-left: 32px;
@@ -87,83 +87,59 @@ header nav li:last-of-type a{
     font: 14px/20px 'poppinsregular';
     text-align: center;
     color: #C0C0C0;
-
 }
-.Monstera_Leafs{
-    background-image: url("../images/IMAGE3.jpg");
+.Sunset{
+    background-image: url("../images/Sunset.jpg");
     background-size: cover;
-    height: calc(100vh);
-    box-sizing: border-box;
+    min-height: 600px;
     display: flex;
-    justify-content: right;
-    padding: 280px 87px 260px 1080px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 62px;
 }
-.Monstera_Leafs article{
-    max-width: 273px;
+.Sunset article{
+    max-width: 300px;
 }
-.Monstera_Leafs h4{
-    font: 14px/28px 'poppinsregular';
+.Sunset article h4{
+    font: 14px/20px 'poppinsregular';
     font-style: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.Monstera_Leafs p{
+.Sunset p{
     font: 14px/20px 'poppinsregular';
     font-style: normal;
     color: #C0C0C0;
 }
+.Monstera_Leafs{
+    background-image: url("../images/IMAGE3.jpg");
+}
 .Past_clients{
     background: #000000;
-    padding: 113px 182px 148px;
+    padding: 113px 182px 140px;
 }
-.companies{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.companies h3{
+.Past_clients h2{
     font: 40px/42px 'poppinsregular';
     font-style: normal;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.companies h4{
+.Past_clients h3{
     font: 24px/30px 'poppinsregular';
     font-style: normal;
     text-align: center;
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-.Shapes{
+.Past_clients .flex_box{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .Himalayas{
     background-image: url("../images/IMAGE2.jpg");
-    background-size: cover;
-    height: calc(100vh);
-    box-sizing: border-box;
-    padding: 250px 119px 250px 1080px;
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-}
-.Himalayas article{
-    max-width: 254px;
-}
-.star{
-    font: 14px/20px 'poppinsregular';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.Himalayas p{
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    color: #C0C0C0;
 }
 .For_Help{
     background-color: #000000;
@@ -173,23 +149,27 @@ header nav li:last-of-type a{
     margin: auto;
     justify-content: center;
 }
-.Get_In_Touch{
+.For_Help article{
     max-width: 581px;
     text-align: center;
 }
-main h2{
-    font: 40px/42px 'poppinsregular';
+.For_Help h2{
+    font-family: 'Poppins';
     font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.Get_a{
+.For_Help h4{
     font: 24px/30px 'poppinsregular';
     font-style: normal;
     color: #C0C0C0;
     margin-bottom: 22px;
 }
-.Get{
+.For_Help a{
     font: 16px/28px 'poppinsregular';
     text-decoration: none;
     font-style: normal;
@@ -201,7 +181,7 @@ main h2{
     line-height: 32px;
     display: inline-flex;
 }
-.Get:before{
+.For_Help a:before{
     content: "";
     display: inline-flex;
     background-color: black;
