@@ -134,7 +134,7 @@ header nav li:last-of-type a{
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-.Past_clients .flex_box{
+.flex_box{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -440,4 +440,12 @@ footer ul:last-child{
     height: 32px;
     border-radius: 50%;
     margin-right: 6px;
+}
+.Past_clients a{
+    max-width: 128px;
+    display: flex;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
 }

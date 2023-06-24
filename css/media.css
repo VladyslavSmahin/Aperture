@@ -1,0 +1,171 @@
+@media only screen and (max-width: 768px) {
+    header nav a {
+        font: 12px/19px 'poppinsregular';
+    }
+
+    header nav li:last-of-type a {
+        border-radius: 10px;
+        font-size: 12px;
+        /*letter-spacing: 0.4px;*/
+        color: #000000;
+        padding: 8px 10px;
+    }
+
+    header nav ul li:last-of-type {
+        margin-left: 29px;
+    }
+
+    header nav ul li:first-of-type {
+        margin-right: 10px;
+    }
+
+    .what_we_do article {
+        display: flex;
+        margin: auto;
+    }
+
+    .articles {
+        gap: 16px;
+    }
+
+    .main_screen {
+        padding-bottom: 120px;
+    }
+
+    .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .last {
+        padding: 50px 50px;
+    }
+
+    .what h3 {
+        padding-top: 30px;
+    }
+
+    .articles {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .aperture_logo {
+    max-width: 75px
+    }
+    header{
+        background: #181818;
+        padding: 10px 0px;
+    }
+    Header .container{
+        max-width: 1200px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header nav ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    header nav ul li{
+        margin-left: 8px;
+    }
+    header nav ul li:first-of-type{
+        margin-right: 8px;
+    }
+    header nav ul li:last-of-type{
+        margin-left: 8px;
+    }
+    header nav a{
+        font: 10px/10px 'poppinsregular';
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    header nav li:first-of-type a{
+        font-size: 10px;
+    }
+    header nav li:last-of-type a{
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        font-size: 10px;
+        /*letter-spacing: 0.4px;*/
+        color: #000000;
+        padding: 8px 20px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .what_we_do article{
+        max-width: 428px;
+        max-height: 428px;
+    }
+    .main_screen article h1{
+        margin-bottom: 18px;
+        font: 40px/40px 'poppinsregular';
+
+    }.what h3{
+         padding-top: 30px;
+         margin-bottom: 10px;
+         font: 30px/42px 'poppinsregular';
+     }
+    .what h4{
+        font: 18px/30px 'poppinsregular';
+        margin-bottom: 20px;
+    }
+    .Past_clients{
+        background: #000000;
+        padding: 50px 50px 50px;
+    }
+    .Past_clients h2{
+        font: 30px/42px 'poppinsregular';
+        margin-bottom: 12px;
+    }
+    .Past_clients h3{
+        font: 15px/30px 'poppinsregular';
+        margin-bottom: 50px;
+    }
+    .flex_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .For_Help h2{
+        font-size: 30px;
+        margin-bottom: 15px;
+}
+    .footer_logo img{
+        max-width: 80px;
+    }
+    .subscription{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subscribe_form{
+        width: 330px;
+    }
+    .subscribe_form input {
+        width: 70px;
+}
+    .subscription p{
+        margin-bottom: 15px;
+    }
+    .Licensing a:last-child{
+        margin-left: 15px;
+    }
+    .Licensing a:first-child {
+        margin-right: 15px;
+    }
+    .aperture_photography{
+        max-width: 200px;
+    }
+    .Photographers_videographers{
+        margin-right: 20px;
+    }
+    .pages{
+        margin-bottom: 21px;
+    }
+}

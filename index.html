@@ -5,14 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/x-icon" href="images/Logo.svg">
     <title>aperture</title>
+    <link rel="icon" type="image/x-icon" href="images/Logo.svg">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <header>
     <div class="container">
-        <a href="#"><img src="images/Logo.svg" alt="logo">
+        <a  href="#"><img class="aperture_logo" src="images/Logo.svg" alt="logo">
         </a>
         <nav>
             <ul>
@@ -119,8 +122,8 @@
         <div class="container">
             <h2>Past clients</h2>
             <h3>Trusted by your favourite companies</h3>
-            <div class="flex_box">
-                <a href="#"><img src="images/Combined-Shape.svg" alt="img"></a>
+            <div class="flex_box owl-carousel" >
+                <a href="#"><img src="images/Combined-Shape.svg" alt="img" ></a>
                 <a href="#"><img src="images/Combined-Shape(1).svg" alt="img"></a>
                 <a href="#"><img src="images/Combined-Shape(2).svg" alt="img"></a>
                 <a href="#"><img src="images/Combined-Shape(3).svg" alt="img"></a>
@@ -163,7 +166,7 @@
                     <li><a href="#">Wildlife Photography</a></li>
                 </ul>
                 <ul>
-                    <li class="Business_Pages">Pages</li>
+                    <li class="Business_Pages pages">Pages</li>
                     <li><a href="#">Gear cage</a></li>
                     <li><a href="#">Featured images</a>
                     <li><a href="#">Contact</a></li>
@@ -197,31 +200,8 @@
         </div>
     </div>
 </footer>
-<div style="display: flex;max-width: 210px; flex-wrap: wrap;justify-content: space-between;margin: auto">
-    <div style="width: 100px; height: 100px; background-color: red; position: relative">
-        <div style="position: absolute; bottom: 5px; right: 50px; display: flex">
-            <a href="#"><img src="images/facebook.svg" alt="img"> </a>
-            <a href="#"><img src="images/facebook.svg" alt="img"> </a>
-        </div>
-    </div>
-    <div style="width: 100px; height: 100px; background-color: red; position: relative">
-        <div style="position: absolute; bottom: 5px; right: 50px">
-            <a href="#"><img src="images/facebook.svg" alt="img"> </a>
-            <a href="#"><img src="images/facebook.svg" alt="img"> </a>
-        </div>
-    </div>
-    <div style="width: 100px; height: 100px; background-color: red; position: relative">
-        <div style="position: absolute; bottom: 5px; right: 50px">
-            <a href="#"><img src="images/facebook.svg" alt="img"> </a>
-            <a href="#"><img src="images/facebook.svg" alt="img"> </a>
-        </div>
-    </div>
-    <div style="width: 100px; height: 100px; background-color: red; position: relative">
-        <div style="position: absolute; bottom: 5px; right: 50px">
-            <a href="#"><img src="images/facebook.svg" alt="img"> </a>
-            <a href="#"><img src="images/facebook.svg" alt="img"> </a>
-        </div>
-    </div>
-</div>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
