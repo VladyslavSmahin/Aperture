@@ -443,9 +443,93 @@ footer ul:last-child{
 }
 .Past_clients a{
     max-width: 128px;
-    display: flex;
+    display: inline-block;
 }
 .owl-stage{
     display: flex;
     align-items: center;
+    text-align: center;
+}
+.Past_clients .owl-nav .owl-prev{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -36px;
+    top: 36px;
+    transform: rotate(90deg);
+
+}
+.Past_clients .owl-nav .owl-prev:before {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+.Past_clients .owl-nav .owl-next{
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -36px;
+    top: 36px;
+    transform: rotate(-90deg);
+
+}
+.Past_clients .owl-nav .owl-next:before {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+.ui-widget.ui-widget-content{
+    width: 500px !important;
+    background-color: black;
+    opacity: 0.8;
+}
+.ui-draggable .ui-dialog-titlebar{
+    background-color: black;
+    border: none;
+    text-align: center;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    background-color: black;
+}
+.ui-widget-content, .ui-dialog .ui-dialog-title{
+    color: #FFFFFF;
+    font: 15px/20px 'poppinsregular';
+}
+.basic_dialog{
+    width: 458px;
+    height: 52px;
+    background: #292929;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+.basic_dialog input {
+    width: 376px;
+    height: 38px;
+    background: #696969;
+    border: none;
+    margin: 7px 6px 7px 7px;
+}
+.basic_dialog button {
+    width: 30px;
+    height: 30px;
+    background: #8c8c8c;
+    margin: 11px 6px 11px 0;
+    border-radius: 50%;
 }

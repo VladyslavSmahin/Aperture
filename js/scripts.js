@@ -1,10 +1,10 @@
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
-        autoplay:false,
+        autoplay:true,
         autoplayTimeout:2000,
         navText: [ '', ' ' ],
-        nav: false,
+        nav: true,
         dots: true,
         responsive:{
             428:{
@@ -15,4 +15,21 @@ $(document).ready(function(){
             }
         }
     });
+    $( function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+                effect: "blind",
+                duration: 1000
+            },
+            hide: {
+                effect: "explode",
+                duration: 1000
+            }
+        });
+
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
 });
