@@ -16,6 +16,11 @@ margin: 0;
 header{
     background: #181818;
     padding: 24px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
 }
 Header .container{
     max-width: 1200px;
@@ -496,6 +501,7 @@ footer ul:last-child{
 }
 .ui-widget.ui-widget-content{
     width: 500px !important;
+    height: 180px !important;
     background-color: black;
     opacity: 0.8;
 }
@@ -518,6 +524,7 @@ footer ul:last-child{
     display: flex;
     justify-content: space-around;
     border: none;
+    margin-bottom: 15px;
 }
 .basic_dialog input {
     width: 376px;
@@ -532,4 +539,57 @@ footer ul:last-child{
     background: #8c8c8c;
     margin: 11px 6px 11px 0;
     border-radius: 50%;
+}
+.dialog_1 .owl-item{
+    margin: 0px 8px;
+}
+.popup, .popup_2, .popup_3, .popup_4, .popup_5{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    transition: all 0.8s ease 0s;
+}
+.popup:target, .popup_2:target, .popup_3:target, .popup_4:target, .popup_5:target{
+    opacity: 1;
+    visibility: visible;
+}
+.popup:target .popup_content, .popup_2:target .popup_2_content, .popup_3:target .popup_3_content, .popup_4:target .popup_4_content, .popup_5:target .popup_5_content{
+    transform: translate(0);
+    opacity: 1;
+}
+.popup_title, .popup_2_title, .popup_3_title, .popup_4_title, .popup_5_title{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font: 15px/20px 'poppinsregular';
+    border: solid 1px gray;
+}
+.popup_body, .popup_2_body, .popup_3_body, .popup_4_body, .popup_5_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+
+}
+.popup_content, .popup_2_content, .popup_3_content, .popup_4_content, .popup_5_content{
+    position: relative;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
+}
+.popup_close, .popup_2_close, .popup_3_close, .popup_4_close, .popup_5_close{
+    position: absolute;
+    font: 10px/20px 'poppinsregular';
+    color: white;
+    left: 130px;
+    top: -50px;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 8px 5px;
+    border-radius: 100%;
 }
