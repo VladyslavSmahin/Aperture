@@ -16,11 +16,11 @@ margin: 0;
 header{
     background: #181818;
     padding: 24px 0px;
-    position: fixed;
+   /* position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
-    width: 100%;
+    width: 100%;*/
 }
 Header .container{
     max-width: 1200px;
@@ -592,4 +592,8 @@ footer ul:last-child{
     border: solid 1px;
     padding: 8px 5px;
     border-radius: 100%;
+}
+.aperture_logo{
+    position: relative;
+    z-index: 99;
 }
